@@ -60,21 +60,21 @@ Se usan para describir la posición de la información
                 ```bash
             
                 ```
-- **\{n,m\}           **=>**
+- **\{n,m\}**           **=>**
      
        EXAMPLE: 
 
            ```bash
          
            ```
-- **\|                **=>**
+- **\|**                **=>**
 
        EXAMPLE: 
 
            ```bash
          
            ```
-- **(regex\)          **=>**
+- **(regex\)**          **=>**
 
        EXAMPLE: 
 
