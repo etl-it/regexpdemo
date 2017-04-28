@@ -1,13 +1,13 @@
 # Search Text Files Using Regular Expressions <h1> 
 
-### *(A clasiificar)* <h3>
+### *(A clasificar)* <h3>
 
 __El caracter ***" \ "*** es conocido como 'CARACTER DE ESCAPE'. Si justo despúes de él localizamos una expresión regular, estaremos dicendo que queremos que dicha expresión regular no sea interpretada como tal__
 
 
 ## ***Position anchors*** <h2>
 
-Se usan para describir la posición de la información
+**(Poner esto mejor)**Se usan para describir la posición de la información
 
 - **^**              **=>** ***Coincidencias al principio de una línea.***
 
