@@ -13,7 +13,7 @@ Se usan para describir la posición de la información
      EXAMPLE: 
 
       ```bash
-
+        //blue
         lcalvo@dit112:/etc/cron.frequently$ sudo grep '^if' doit
         if ! [ -s /etc/TODO/.lock.$$ ] ; then
         if [ -s /etc/DISTRIBUTION ]; then
