@@ -15,7 +15,7 @@ _(esto habrá que explicarlo mejor) Dentro de un grep:  el caracter "." signific
 
 Se usan para describir la posición de la información
 
-- **^**              **=>** Coincidencias al principio de una línea
+- **^**              **=>** ***Coincidencias al principio de una línea.***
 
       EXAMPLE: 
 
@@ -24,7 +24,7 @@ Se usan para describir la posición de la información
            if ! [ -s /etc/TODO/.lock.$$ ] ; then
            if [ -s /etc/DISTRIBUTION ]; then
            ```
-- **$**                 **=>** Coincidencias al final de una línea
+- **$**                 **=>** ***Coincidencias al final de una línea.***
 
       EXAMPLE: 
 
@@ -35,11 +35,11 @@ Se usan para describir la posición de la información
               ;;
               ;;
            ``` 
-- **\\<\\>**            **=>** Coincidencias con 'espacios en blanco', 'principio de línea' o 'fin de línea'
+- **\\<\\>**            **=>** ***Coincidencias con 'espacios en blanco', 'principio de línea' o 'fin de línea'.***
 
 ## *Characters sets* <h2>
 
-- **\***              **=>** 
+- **\***              **=>** ***Cero o más coincidencias con un caracter desconocido que lo precede.***
 
        EXAMPLE: 
 
