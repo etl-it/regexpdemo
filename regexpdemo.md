@@ -13,10 +13,9 @@ Se usan para describir la posición de la información
      EXAMPLE: 
 
       ```bash
-        //blue
-        lcalvo@dit112:/etc/cron.frequently$ sudo grep '^if' doit
-        if ! [ -s /etc/TODO/.lock.$$ ] ; then
-        if [ -s /etc/DISTRIBUTION ]; then
+        //lcalvo@dit112:/etc/cron.frequently$ sudo grep '^if' doit
+        //if ! [ -s /etc/TODO/.lock.$$ ] ; then
+        //if [ -s /etc/DISTRIBUTION ]; then
       ```
 - $             => Coincidencias al final de una línea
 - \<\>          => Coincidencias con 'espacios en blanco', 'principio de línea' o 'fin de línea'
