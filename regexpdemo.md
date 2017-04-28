@@ -1,6 +1,6 @@
 # Search Text Files Using Regular Expressions <h1> 
 
-*Esto hay que ordenarlo:"
+*Esto hay que ordenarlo:*
 
 _El caracter " \ " es conocido como 'CARACTER DE ESCAPE'. Si justo despúes de él localizamos una expresión regular, estaremos dicendo que queremos que dicha expresión regular no sea interpretada como tal_
 
@@ -11,7 +11,7 @@ _(esto habrá que explicarlo mejor) Dentro de un grep:  el caracter "." signific
      ```
 
 
-*Position anchors*
+## *Position anchors* <h2>
 
 Se usan para describir la posición de la información
 
@@ -41,8 +41,8 @@ Se usan para describir la posición de la información
         
   
   
-*Characters sets*
+## *Characters sets* <h2>
   
-*Quantify modifiers*
+## *Quantify modifiers* <h2>
 
 
