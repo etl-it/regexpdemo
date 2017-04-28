@@ -37,11 +37,50 @@ Se usan para describir la posición de la información
       ``` 
 - **\\<\\>**            **=>** Coincidencias con 'espacios en blanco', 'principio de línea' o 'fin de línea'
 
-
-        
-  
-  
 ## *Characters sets* <h2>
+
+- **\***              **=>** 
+
+     EXAMPLE: 
+
+           ```bash
+       
+           ```
+- **\?**              **=>**
+
+       EXAMPLE: 
+
+                ```bash
+         
+                ```
+- **\+**              **=>**
+
+       EXAMPLE: 
+
+                ```bash
+            
+                ```
+- **\{n,m\}           **=>**
+     
+       EXAMPLE: 
+
+           ```bash
+         
+           ```
+- **\|                **=>**
+
+       EXAMPLE: 
+
+           ```bash
+         
+           ```
+- **(regex\)          **=>**
+
+       EXAMPLE: 
+
+           ```bash
+
+           ```
   
 ## *Quantify modifiers* <h2>
 
