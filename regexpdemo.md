@@ -4,11 +4,6 @@
 
 _El caracter " \ " es conocido como 'CARACTER DE ESCAPE'. Si justo despúes de él localizamos una expresión regular, estaremos dicendo que queremos que dicha expresión regular no sea interpretada como tal_
 
-_(esto habrá que explicarlo mejor) Dentro de un grep:  el caracter "." significa "cualquier caracter"; el caracter " * " busca el string que precede el " * ". Si juntamos ambos, no busca nada, esto es, nos muestra todo.
-
-     ```bash
-     lcalvo@dit112:/etc/cron.frequently$ grep .* doit
-     ```
 
 
 ## *Position anchors* <h2>
@@ -46,6 +41,13 @@ Se usan para describir la posición de la información
                 ```bash
          
                 ```
+   
+   __Dentro de un grep:  el caracter "." significa "cualquier caracter"; el caracter " * " busca el string que precede el " * ".     Si juntamos ambos, no busca nada, esto es, nos muestra todo.__
+
+     ```bash
+     lcalvo@dit112:/etc/cron.frequently$ grep .* doit
+     ```
+   
 - **\?**              **=>**
 
        EXAMPLE: 
