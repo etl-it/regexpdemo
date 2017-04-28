@@ -1,6 +1,6 @@
 # Search Text Files Using Regular Expressions <h1> 
 
-### *A calificar* <h3>
+### *(A clasiificar)* <h3>
 
 __El caracter ***" \ "*** es conocido como 'CARACTER DE ESCAPE'. Si justo despúes de él localizamos una expresión regular, estaremos dicendo que queremos que dicha expresión regular no sea interpretada como tal__
 
