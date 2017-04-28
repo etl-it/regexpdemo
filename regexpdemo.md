@@ -17,35 +17,35 @@ Se usan para describir la posición de la información
 
 - **^**              **=>** Coincidencias al principio de una línea
 
-     EXAMPLE: 
+      EXAMPLE: 
 
-      ```bash
-      lcalvo@dit112:/etc/cron.frequently$ sudo grep '^if' doit
-      if ! [ -s /etc/TODO/.lock.$$ ] ; then
-      if [ -s /etc/DISTRIBUTION ]; then
-      ```
+           ```bash
+           lcalvo@dit112:/etc/cron.frequently$ sudo grep '^if' doit
+           if ! [ -s /etc/TODO/.lock.$$ ] ; then
+           if [ -s /etc/DISTRIBUTION ]; then
+           ```
 - **$**                 **=>** Coincidencias al final de una línea
 
-     EXAMPLE: 
+      EXAMPLE: 
 
-      ```bash
-      lcalvo@dit112:/etc/cron.frequently$ sudo grep '\;$' doit
+           ```bash
+           lcalvo@dit112:/etc/cron.frequently$ sudo grep '\;$' doit
+                   ;;
+               continue ;;
               ;;
-          continue ;;
-         ;;
-         ;;
-      ``` 
+              ;;
+           ``` 
 - **\\<\\>**            **=>** Coincidencias con 'espacios en blanco', 'principio de línea' o 'fin de línea'
 
 ## *Characters sets* <h2>
 
 - **\***              **=>** 
 
-     EXAMPLE: 
+       EXAMPLE: 
 
-           ```bash
-       
-           ```
+                ```bash
+         
+                ```
 - **\?**              **=>**
 
        EXAMPLE: 
