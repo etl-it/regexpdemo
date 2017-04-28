@@ -1,16 +1,19 @@
 # Search Text Files Using Regular Expressions <h1> 
 
-1. *Position anchors*
+
+*Position anchors*
 Anchors are used to describe position information.
         
         ```bash
 
-           echo 'Hola mundo'
+        lcalvo@dit112:/etc/cron.frequently$ sudo grep '^if' doit
+        if ! [ -s /etc/TODO/.lock.$$ ] ; then
+        if [ -s /etc/DISTRIBUTION ]; then
 
          ```
   
-2. *Characters sets*
+*Characters sets*
   
-3. *Quantify modifiers*
+*Quantify modifiers*
 
 
