@@ -1,12 +1,11 @@
 # Search Text Files Using Regular Expressions <h1> 
 
-*Esto hay que ordenarlo:*
+### *A calificar* <h3>
 
-_El caracter " \ " es conocido como 'CARACTER DE ESCAPE'. Si justo despúes de él localizamos una expresión regular, estaremos dicendo que queremos que dicha expresión regular no sea interpretada como tal_
+__El caracter ***" \ "*** es conocido como 'CARACTER DE ESCAPE'. Si justo despúes de él localizamos una expresión regular, estaremos dicendo que queremos que dicha expresión regular no sea interpretada como tal__
 
 
-
-## *Position anchors* <h2>
+## ***Position anchors*** <h2>
 
 Se usan para describir la posición de la información
 
@@ -32,7 +31,7 @@ Se usan para describir la posición de la información
            ``` 
 - **\\<\\>**            **=>** ***Coincidencias con 'espacios en blanco', 'principio de línea' o 'fin de línea'.***
 
-## *Characters sets* <h2>
+## ***Characters sets*** <h2>
 
 - **\***              **=>** ***Cero o más coincidencias con un caracter desconocido que lo precede.***
 
@@ -84,6 +83,6 @@ Se usan para describir la posición de la información
 
            ```
   
-## *Quantify modifiers* <h2>
+## ***Quantify modifiers*** <h2>
 
 
